@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head th:replace="~{index :: head}"></head>
+<body>
+    <nav th:replace="~{index :: navbar}"></nav>
+
+    <div class="container-fluid">
+        <div class="row vh-100 align-items-center">
+            <div class="col-10 ps-5">
+                <h1 class="mb-5">Welcome to <span class="display-4 fw-bold d-block">New Aulab Chronicle</span></h1>
+            </div>
+        </div>
+    </div>
+
+    <footer th:replace="~{index :: footer}"></footer>
+    <script th:replace="~{index :: bsScript}"></script>
+</body>
+</html>
